@@ -30,6 +30,17 @@ jobs:
     strategy:
       matrix:
         subreddit:
+          - vscode
+          - devto
+          - netlify
+          - github
+          - obsidianmd
+          - notion
+          - roamresearch
+          - productivity
+          - notetaking
+          - opensource
+          - gtd
           - zettelkasten
     steps:
       - uses: actions/checkout@v2
