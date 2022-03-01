@@ -42,6 +42,7 @@ jobs:
           - opensource
           - gtd
           - zettelkasten
+          - digitalgardens
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
